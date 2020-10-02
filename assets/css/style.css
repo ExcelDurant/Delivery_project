@@ -285,6 +285,68 @@
 }
 /*                   END OF ZONE SECTION            */
 
+/*                      HOW IT WORKS PAGE                              */
+
+.how-main-sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.how-main-sec h1{
+    text-align: center;
+}
+
+.how-banner-container{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.how-steps{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.how-step{
+    
+    width: 95%;
+    margin: auto;
+    box-shadow: 1px 3px 5px #888888;
+    border-radius: 15px;
+    border-top: 12px solid chocolate;
+}
+
+.how-img{
+    width: 90%;
+     height: 150px; 
+    margin: auto;
+    margin-top: 20px;
+}
+
+.step-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.step-expl{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*                      END OF HOW IT WORKS PAGE                         */
+
 
 
 /*                   FOOTER SECTION               */
@@ -296,7 +358,7 @@
     background-color: #fb8629;
     color: white;
     padding-top: 5px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .footer-row-1{
