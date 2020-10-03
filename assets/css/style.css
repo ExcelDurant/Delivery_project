@@ -31,7 +31,7 @@
 .logo-sec{
     float: left;
     height: 70%;
-    width: 8%;
+    width: 6%;
     overflow: hidden;
     margin-top: 10px;
     margin-left: 30px;
@@ -346,6 +346,79 @@
 
 
 /*                      END OF HOW IT WORKS PAGE                         */
+
+
+
+
+/*                      LOGIN PAGE                               */
+
+
+.form-title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.login-container{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.login-container input{
+    display: block;
+    border-radius: 25px;
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 20px;    
+    margin-bottom: 30px;
+    box-shadow: 3px 5px 20px #888888;
+    font-size: 20px;
+}
+
+.login-container input:focus{
+    box-shadow: 3px 5px 20px #342a69;
+}
+
+
+.login-container label{
+    margin-left: 12%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(31, 30, 30);
+}
+
+.login-container button{
+    display: block;
+    border-radius: 25px;
+    width: 78%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fb8629;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*                       END OF LOGIN PAGE                         */
 
 
 
